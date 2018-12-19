@@ -4,7 +4,7 @@ Scrabble score bot for Discord which calculates the total amount of points for a
 
 Paste your client id and authorize bot to server:
 
-https://discordapp.com/oauth2/authorize?&client_id=YOURCLIENTID&scope=bot&permissions=8
+https://discordapp.com/oauth2/authorize?&client_id=YOURCLIENTID&scope=bot
 
 Run on:
 
