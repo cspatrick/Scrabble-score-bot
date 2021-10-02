@@ -4,15 +4,16 @@ client.on('ready', () => {
   console.log("Bot started!");
 });
 
-var one = ["a", "e", "i", "o", "u", "l", "n", "s", "t", "r"];
-var two = ["d", "g"];
-var three = ["b", "c", "m", "p"];
-var four = ["f", "h", "v", "w", "y"];
-var five = ["k"];
-var eight = ["j", "x"];
-var ten = ["q", "z"];
+const one = ["a", "e", "i", "o", "u", "l", "n", "s", "t", "r"];
+const two = ["d", "g"];
+const three = ["b", "c", "m", "p"];
+const four = ["f", "h", "v", "w", "y"];
+const five = ["k"];
+const eight = ["j", "x"];
+const ten = ["q", "z"];
 
 client.on('message', msg => {
+  //get the contents of the messages sent in the discord server
   if (msg.content.substring(0, 10) == '+scrabble ') {
     var score = 0;
     for (var i = 10; i < msg.content.length; i++) {
